@@ -9,7 +9,6 @@
         <description>
             {{- .Title }} - {{ T .Data.Singular | default .Data.Singular }} - {{ .Site.Title -}}
         </description>
-        <generator>Hugo -- gohugo.io</generator>
         {{- with .Site.LanguageCode -}}
             <language>
                 {{- . -}}
